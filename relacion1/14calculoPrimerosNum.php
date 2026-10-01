@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 13</title>
+    <title>Ejercicio 14</title>
 </head>
 <body>
     <?php
         $num1 = 5;
-        $calculoFactorial = 1;
+        $calculoPrimeros = 0;
         
 
         for ($x = 1; $x <= $num1; $x ++){
 
-            $resultadoAnterior = $calculoFactorial;
-            $calculoFactorial = $x * $calculoFactorial;
-            echo $x. " * ". $resultadoAnterior. "= ". $calculoFactorial. "<br>";
             
-
-           
-        }
-        
+            $calculoPrimeros = $x + $calculoPrimeros;
          
+        }
+        echo "La suma de los primeros ". $num1. " es = ". $calculoPrimeros. "<br>";
+
+  
     ?>
+
+    
 </body>
 </html>
