@@ -12,7 +12,7 @@
         $faltasInjustificadas = 2;
 
         $notaMedia = ($nota1 + $nota2) / 2;
-        $notaTotal = $notaMedia - $faltasInjustificadas;
+        $notaTotal = $notaMedia - $faltasInjustificadas * 0.25;
 
         echo "La nota es: ".$notaTotal;
         if($notaTotal >= 5){

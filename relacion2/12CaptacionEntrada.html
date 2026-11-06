@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+
+    <div id="main" class="container py-5">
+
+        <h2 class="text-center text-info fw-bold mb-5">
+            Calculadora matemática
+        </h2>
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-7 col-sm-10 col-12">
+
+                <form class="bg-white border rounded-4 p-4 shadow-lg"
+                      method="GET"
+                      action="12CalculoCalificacion.php">
+
+                    <h4 class="text-center text-primary mb-4">
+                        Introduce las notas
+                    </h4>
+
+                    <!-- nota inicial -->
+                    <div class="mb-4">
+                        <label for="nInicial" class="form-label fw-bold">
+                            Nota inicial
+                        </label>
+
+                        <input type="number"
+                               step="any"
+                               class="form-control form-control-lg"
+                               id="nInicial"
+                               name="nInicial"
+                               placeholder="Introduce la Nota inicial"
+                               required>
+                    </div>
+
+                    <!-- nota 1 -->
+                    <div class="mb-4">
+                        <label for="n1" class="form-label fw-bold">
+                            Primera nota
+                        </label>
+
+                        <input type="number"
+                               step="any"
+                               class="form-control form-control-lg"
+                               id="n1"
+                               name="n1"
+                               placeholder="Introduce la primera nota"
+                               required>
+                    </div>
+
+                    <!-- nota 2 -->
+                    <div class="mb-4">
+                        <label for="n2" class="form-label fw-bold">
+                            Segunda nota
+                        </label>
+
+                        <input type="number"
+                               class="form-control form-control-lg"
+                               id="n2"
+                               name="n2"
+                               placeholder="Introduce la Segunda nota"
+                               required>
+                    </div>
+
+                    <!-- nota 3 -->
+                    <div class="mb-4">
+                        <label for="n3" class="form-label fw-bold">
+                            Tercera nota
+                        </label>
+
+                        <input type="number"
+                               class="form-control form-control-lg"
+                               id="n3"
+                               name="n3"
+                               placeholder="Introduce la tercera nota"
+                               required>
+                    </div>
+
+                    <h4 class="text-center text-primary mb-4">
+                        Introduce las Datos
+                    </h4>
+
+                    <!-- nombre -->
+                    <div class="mb-4">
+                        <label for="nom" class="form-label fw-bold">
+                            Nombre
+                        </label>
+
+                        <input type="text"
+                               class="form-control form-control-lg"
+                               id="nom"
+                               name="nom"
+                               placeholder="Introduce el nombre"
+                               required>
+                    </div>
+
+                     <!-- mail -->
+                    <div class="mb-4">
+                        <label for="mail" class="form-label fw-bold">
+                            Correo electronico
+                        </label>
+
+                        <input type="email"
+                               class="form-control form-control-lg"
+                               id="mail"
+                               name="mail"
+                               placeholder="Introduce el email"
+                               required>
+                    </div>
+
+
+                    <!-- Botón -->
+                    <div class="d-grid">
+                        <button type="submit"
+                                class="btn btn-success btn-lg fw-bold">
+                            Calcular resultado
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
