@@ -90,9 +90,14 @@
                                 name="submit">
                             Calcular resultado
                         </button>
+                        
                     </div>
+                   
 
                 </form>
+                 <a href="index.html" >
+                    <button type="submit" class="btn btn-primary btn-success mt-2" name="submit"> &lt;- VOLVER </button>
+                </a>
 
                 <!-- PHP -->
                 <?php  
@@ -131,8 +136,9 @@
                 ?>
 
             </div>
-
+                
         </div>
+        
     </div>
 
     <!-- Bootstrap JS -->

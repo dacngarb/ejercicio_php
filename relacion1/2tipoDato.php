@@ -23,6 +23,13 @@
     <?php 
     $string = "Hola";
     var_dump($string)?>
+
+
+
+<br>
+<a href="index.html" >
+    <button type="submit" class="btn btn-primary btn-success mt-2" name="submit"> &lt;- VOLVER </button>
+</a>
 </body>
 </html>
 

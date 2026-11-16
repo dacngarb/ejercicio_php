@@ -39,6 +39,10 @@
         <button type="submit" name="submit">Calcular</button>
 
     </form>
+    <br>
+    <a href="index.html">
+        <button type="submit" class="btn btn-primary" name="submit"> &lt;- VOLVER </button>
+    </a>
 
     <?php
         if (isset($_GET["submit"])) {

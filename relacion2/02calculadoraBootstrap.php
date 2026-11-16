@@ -66,6 +66,10 @@
 
                 </form>
 
+        <a href="index.html" >
+            <button type="submit" class="btn btn-primary m-3 name="submit"> &lt;- VOLVER </button>
+        </a>
+
                 <?php
 
                     if (isset($_GET["submit"])) {

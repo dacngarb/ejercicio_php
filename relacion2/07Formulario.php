@@ -74,12 +74,16 @@
                 }
                 ?>
 
+        <a href="index.html" >
+            <button type="submit" class="btn btn-primary  mb-3" name="submit"> &lt;- VOLVER </button>
+        </a>
             </div>
 
             <!-- Espacio derecho -->
             <div class="col-md-3 col-sm-1"></div>
 
         </div>
+        
     </div>
 
     <!-- Bootstrap JS -->

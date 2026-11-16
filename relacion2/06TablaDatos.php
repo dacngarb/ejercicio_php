@@ -78,6 +78,10 @@ $personas = [
         </div>
     </div>
 
+    <br>
+    <a href="index.html">
+        <button type="submit" class="btn btn-primary" name="submit"> &lt;- VOLVER </button>
+    </a>
 </div>
 
 </body>

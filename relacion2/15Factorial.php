@@ -76,6 +76,10 @@
                     ?>
 
                 </div>
+                <a href="index.html" >
+                    <button type="submit" class="btn btn-primary btn-success mt-2" name="submit"> &lt;- VOLVER </button>
+                </a>
+
             </div>
         </div>
     </div>
