@@ -49,8 +49,8 @@ La organización irá creciendo conforme avance en la asignatura.
 | -------- | ---------------------- | ------ |
 | 01       | Fundamentos de PHP     | 🟢     |
 | 02       | Condicionales y bucles | 🟡     |
-| 03       | Arrays y funciones     | ⚪      |
-| 04       | Formularios            | ⚪      |
+| 03       | Arrays y funciones     | 🟡      |
+| 04       | Formularios            | 🟡      |
 
 > 🟢 Terminada · 🟡 En progreso · ⚪ Pendiente
 
